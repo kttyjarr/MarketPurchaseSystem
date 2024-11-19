@@ -3,13 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marketplace</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Marketplace Login Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to the Market Purchase System</h1>
-    <p>This is a basic HTML body structure.</p>
 
-<script src="js/script.js"></script>
+    <div class="login">
+        
+        <div class = "welcome">
+        <h1>Welcome to Marketplace</h1>
+        </div>
+
+        <div class="login-box">
+            <form action="/login" method="POST" class="form">
+                <input type="text" name="username" class="form-field" placeholder="Username" required>
+                <input type="password" name="password" class="form-field" placeholder="Password" required>
+                <input type="reset" id="formreset" placeholder="Reset">
+
+                <button type="submit" class="btn login-btn">Login</button>
+            </form>
+
+            <div class="register-link">
+                <p> Don't have an account? <a href="register.jsp" id="register-link" class="btn register-btn">Register here</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js" defer></script>
 </body>
 </html>
