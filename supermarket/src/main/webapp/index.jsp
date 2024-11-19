@@ -9,5 +9,7 @@
 <body>
     <h1>Welcome to the Market Purchase System</h1>
     <p>This is a basic HTML body structure.</p>
+
+<script src="js/script.js"></script>
 </body>
 </html>
