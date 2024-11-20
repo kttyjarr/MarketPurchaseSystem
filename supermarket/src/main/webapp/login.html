@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace Login Page</title>
+    <link rel="stylesheet" href="login-register.css">
+</head>
+<body>
+
+    <div class="login">
+        
+        <div class = "welcome">
+        <h1>Welcome to Marketplace</h1>
+        </div>
+
+        <div class="login-box">
+            <form action="/login" method="POST" class="form">
+                <input type="text" name="username" class="form-field" placeholder="Username" required>
+                <input type="password" name="password" class="form-field" placeholder="Password" required>
+                <input type="reset" id="formreset" placeholder="Reset">
+
+                <button type="submit" class="btn login-btn">Login</button>
+            </form>
+
+        </div>
+    </div>
+    <script src="js/script.js" defer></script>
+</body>
+</html>
