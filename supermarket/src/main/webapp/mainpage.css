@@ -15,7 +15,7 @@ nav {
 }
 label.logo {
     color: #FFD361; 
-    font-size: 45px; 
+    font-size: 50px; 
     line-height: 80px; 
     padding: 0 50px; 
     font-weight: bold;
@@ -53,13 +53,19 @@ button a {
     color: rgb(255, 255, 255); font-size: 15px; font-weight: bold;
 }
 section {   
-    background: url(background.png) no-repeat;
+    background: url(background.svg) no-repeat;
     background-size: cover;
     height: 100vh;
+    
 }
 body {
     min-width: 1320px; 
     min-height: 800px; 
     overflow: hidden; 
+
+}
+h1 {
+    font-size: 50px; 
+    color: #000000; 
 
 }
